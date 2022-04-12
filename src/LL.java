@@ -21,6 +21,21 @@ class LL
 				this.next=null;
 			}
 		}
+		
+		
+		public void deletelast()
+		{
+			Node temp=head;
+			while(temp.next.next !=null)
+			{
+				temp=temp.next;
+				
+			}temp.next=null;
+		}
+		
+		
+		
+		
 		public void insertfirst(int data )
 		{
 			Node node= new Node (data);
@@ -122,6 +137,8 @@ class LL
 			a.display();
 			a.deletefirst();
 			a.display();
+			 a.deletelast();
+			 a.display();
 	
 	}
 }
