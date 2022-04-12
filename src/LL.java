@@ -57,25 +57,25 @@ class LL
 		//}
 			
 		
-			//public void insertatlast(int data)
-			//{
-			//	Node node= new Node (data);
+			public void insertatlast(int data)
+			{
+				Node node= new Node (data);
 
-				//if(tail ==null)
-				//{
-					//tail=node;
-					//head=node;
-				//}
-				//else
-				//{
+				if(tail ==null)
+				{
+					tail=node;
+					head=node;
+				}
+				else
+				{
 
 				
-					//tail.next=node;
-					//tail=node;
+					tail.next=node;
+					tail=node;
 					
-				//}
+				}
 				
-			//}
+			}
 		
 		public void display()
 		{
@@ -95,10 +95,10 @@ class LL
 			LL a=new LL();
 			//a.insertatlast(40);
 			
-			a.insertfirst(70);
+			
 			a.insertfirst(30);
 			a.insertfirst(56);
-			
+			a.insertatlast(70);
 			
 			//a.insertatlast(30);
 			//a.display();
