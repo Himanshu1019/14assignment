@@ -76,7 +76,17 @@ class LL
 				}
 				
 			}
-		
+			
+			public void deletefirst()
+			{
+				head=head.next;
+				if(head==null) {
+					tail=null;
+				}
+				
+			}
+			
+			
 		public void display()
 		{
 			Node temp=head;
@@ -109,6 +119,8 @@ class LL
 			//a.insert(9, 5);
 			a.display();
 			a.insert(30,2);
+			a.display();
+			a.deletefirst();
 			a.display();
 	
 	}
