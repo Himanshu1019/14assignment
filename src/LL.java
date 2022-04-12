@@ -37,24 +37,24 @@ class LL
 			head=node;
 		}
 		}
-		//public void insert(int data, int index)
-		//{
+		public void insert(int data, int index)
+		{
 			
-			//Node temp;
-			//temp=head;
-			//int position;
-			//for(position=1;position<index-1;position++)
-			//{
-			//	temp=temp.next;
-			//	
-			//}
-			//Node node=new Node(data);
-			//node.next=temp.next;
-			//temp.next=node;
+			Node temp;
+			temp=head;
+			int position;
+			for(position=1;position<index-1;position++)
+			{
+				temp=temp.next;
+				
+			}
+			Node node=new Node(data);
+			node.next=temp.next;
+			temp.next=node;
 			
 			
 		
-		//}
+		}
 			
 		
 			public void insertatlast(int data)
@@ -96,8 +96,9 @@ class LL
 			//a.insertatlast(40);
 			
 			
-			a.insertfirst(30);
+		//	a.insertfirst(30);
 			a.insertfirst(56);
+			a.insert(30,2);
 			a.insertatlast(70);
 			
 			//a.insertatlast(30);
@@ -106,6 +107,8 @@ class LL
 			//a.insertatlast(50);
 			//a.display();
 			//a.insert(9, 5);
+			a.display();
+			a.insert(30,2);
 			a.display();
 	
 	}
