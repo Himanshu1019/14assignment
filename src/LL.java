@@ -121,10 +121,11 @@ class LL
 			//a.insertatlast(40);
 			
 			
-		//	a.insertfirst(30);
+			a.insertfirst(30);
 			a.insertfirst(56);
-			a.insert(30,2);
 			a.insertatlast(70);
+			
+			a.insert(40,3);
 			
 			//a.insertatlast(30);
 			//a.display();
@@ -132,12 +133,12 @@ class LL
 			//a.insertatlast(50);
 			//a.display();
 			//a.insert(9, 5);
-			a.display();
-			a.insert(30,2);
-			a.display();
-			a.deletefirst();
-			a.display();
-			 a.deletelast();
+			//a.display();
+			//a.insert(30,2);
+			//a.display();
+			//a.deletefirst();
+			//a.display();
+			// a.deletelast();
 			 a.display();
 	
 	}
